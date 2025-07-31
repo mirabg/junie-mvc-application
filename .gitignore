@@ -1,0 +1,43 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+target/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Temp files
+*.tmp
+*.bak
+
+# Spring Boot
+!**/src/main/**/resources/application*.properties
+!**/src/main/**/resources/application*.yml
+!**/src/main/**/resources/bootstrap*.properties
+!**/src/main/**/resources/bootstrap*.yml
+!**/src/main/**/resources/application*.yaml
+!**/src/main/**/resources/bootstrap*.yaml
+
+# Other common exclusions
+.DS_Store
+Thumbs.db
